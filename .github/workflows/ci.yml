@@ -49,7 +49,7 @@ jobs:
           node-version: ${{ matrix.node_version }}
 
       - name: add auth token for npm packages
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.PACKAGE_TOKEN }}" >> .npmrc
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc
 
       - name: npm install
         run: |
