@@ -1,13 +1,5 @@
 # Adaptive Card Transformer Sample Bot
 
-## Overview
-
-This is DocBot, a sample Teams bot implementation that simulates scheduling a Doctor's appointment.
-
-This project represents a scenario where a backend API handles all of the dialog flow logic. All user responses are forwarded to the API and all of the API's responses are transformed/adapted to be displayed to the user as [Adaptive Cards](https://adaptivecards.io/). To achieve this, the bot leverages `adaptive-card-transformer`. See the [Adaptive Card Transformer repo](https://github.com/retaildevcrews/AdaptiveCardTransformer) for more information.
-
-This repository contains a sample [Microsoft Teams bot](https://docs.microsoft.com/en-us/microsoftteams/platform/bots/what-are-bots), backend API, and set of plugins to use with `adaptive-card-transformer`.
-
 ## Development
 
 ### Development Container
@@ -33,12 +25,6 @@ This repository contains a sample [Microsoft Teams bot](https://docs.microsoft.c
      - `https://<ngrok_tunnel_hostname>/api/messages`
      - Example: `https://pinkalpaca-chatbot.ngrok.io/api/messages`
 
-1. Go to the src directory
-
-   ```bash
-   cd src/
-   ```
-
 1. Run `cp .env.example .env` and fill in more information in '.env' file:
 
    - `Microsoft App ID` can be found in Settings > Configuration
@@ -48,19 +34,19 @@ This repository contains a sample [Microsoft Teams bot](https://docs.microsoft.c
 
    - The ngrok account owner that setup the domain should have this information
 
-1. Run `cp .npmrc.example .npmrc` and fill in the auth token with your appropriate Personal Access Token
+1. Go to the root directory
 
-   - To create a token, follow [this guide](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+   ```bash
+   cd ..
+   ```
 
-     - To use the Adaptive Card Transformer package, you will only need to set the [`read:packages`](https://docs.github.com/en/packages/learn-github-packages/about-permissions-for-github-packages#about-scopes-and-permissions-for-package-registries) scope for the token
-
-1. Install modules
+1. Install modules from the root directory
 
    ```bash
    npm install
    ```
 
-1. Start the bot and the api
+1. Start the bot and the api from the root directory
 
    ```bash
    npm start
@@ -82,11 +68,13 @@ This repository contains a sample [Microsoft Teams bot](https://docs.microsoft.c
 
 ## Testing
 
-The bot leverages [ts-jest](https://www.npmjs.com/package/ts-jest) on top of [Jest](https://jestjs.io/) for unit testing. This provides all the benefits of Jest (simplicity, rich functionality, built-in code coverage metrics) along with the complete TypeScript support of `ts-jest` (type-checking).
+The example directory leverages [ts-jest](https://www.npmjs.com/package/ts-jest) on top of [Jest](https://jestjs.io/) for unit testing. This provides all the benefits of Jest (simplicity, rich functionality, built-in code coverage metrics) along with the complete TypeScript support of `ts-jest` (type-checking).
 
-To run unit tests:
+Unit tests from the example directory can be run from the root directory:
 
 ```sh
+cd ..
+
 npm test # run all unit tests
 
 npm test -- SomeTestFile # run unit tests in SomeTestFile

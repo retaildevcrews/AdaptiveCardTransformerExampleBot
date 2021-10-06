@@ -2,7 +2,7 @@
 
 ## Goal
 
-This living document represents the principles and expected behavior of everyone involved in the project. It is not meant to be exhaustive nor  complete. The team should be accountable to these standards and revisit, review, and revise as needed. The agreement is signed off by everyone.
+This living document represents the principles and expected behavior of everyone involved in the project. It is not meant to be exhaustive nor complete. The team should be accountable to these standards and revisit, review, and revise as needed. The agreement is signed off by everyone.
 
 ## Code of Conduct
 
@@ -23,7 +23,7 @@ We pledge to follow the [Microsoft Open Source Code of Conduct](https://opensour
 
 ## How we work together
 
-Teams and feature crews should feel free to be flexible based on your life situation - especially during COVID. Many of us work split schedules to accomodate our personal lives and health. You should feel empowered to work "your" schedule. 
+Teams and feature crews should feel free to be flexible based on your life situation - especially during COVID. Many of us work split schedules to accomodate our personal lives and health. You should feel empowered to work "your" schedule.
 
 ### Model, Coach, Care
 
@@ -56,7 +56,7 @@ Our crews are distributed across timezones and across the world. Where possible,
 
 - We will track our work in GitHub
 - We will prefer public repos when possible
-- Our sprint work items will follow the hierarchy:  --
+- Our sprint work items will follow the hierarchy: --
   - Epic
     - Story
       - Task
@@ -64,13 +64,13 @@ Our crews are distributed across timezones and across the world. Where possible,
       - Task
 - We will track Risk work items outside of the hierarchy so that we may easily manage them independently; however, we may choose to relate them to other work items.
 
-|  | Sizing | Definition |
-|--|--------|------------|
-| **Epic** | Up to the lifetime of the project | Business initiative for a stakeholder to accomplish |
-| **Story** | Completable within a sprint | Consists of multiple tasks |
-| **Bug** | Completable within a sprint | Production blocking bugs are prioritized |
-| **Task** | Completable within a week | Optionally defined by the story owner to help track work that must be completed to consider a story done |
-| **Risk** | N/A | Something that the team would like to shine light on to ensure actions can be taken to mitigate effects on the project |
+|           | Sizing                            | Definition                                                                                                             |
+| --------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Epic**  | Up to the lifetime of the project | Business initiative for a stakeholder to accomplish                                                                    |
+| **Story** | Completable within a sprint       | Consists of multiple tasks                                                                                             |
+| **Bug**   | Completable within a sprint       | Production blocking bugs are prioritized                                                                               |
+| **Task**  | Completable within a week         | Optionally defined by the story owner to help track work that must be completed to consider a story done               |
+| **Risk**  | N/A                               | Something that the team would like to shine light on to ensure actions can be taken to mitigate effects on the project |
 
 #### User Story Guidelines
 
@@ -78,20 +78,20 @@ Our crews are distributed across timezones and across the world. Where possible,
 
 ##### User Story Guideline
 
-  Leveraging the 5 W's (who, what, when, where, why)
-  
+Leveraging the 5 W's (who, what, when, where, why)
+
 ##### Acceptance Criteria/Tests
 
-   User can *[select/operate] [Feature/Function]* so that *[output]* is *[visible/complete/etc.]*  
-   Verify that...
+User can _[select/operate] [Feature/Function]_ so that _[output]_ is _[visible/complete/etc.]_
+Verify that...
 
 ##### I.N.V.E.S.T. in User Stories
 
-**I**ndependent - Can it be developed independently of other stories?  
-**N**egotiable - Is the scope negotiated to enable completion?  
-**V**aluable - Is the value to the user or customer clear?  
-**E**stimatable - Can the work be estimated? Are there unknowns, dependencies, barriers? Do we lack domain or technical knowledge?  
-**S**ize appropriately - Can it be completed in the iteration?  
+**I**ndependent - Can it be developed independently of other stories?
+**N**egotiable - Is the scope negotiated to enable completion?
+**V**aluable - Is the value to the user or customer clear?
+**E**stimatable - Can the work be estimated? Are there unknowns, dependencies, barriers? Do we lack domain or technical knowledge?
+**S**ize appropriately - Can it be completed in the iteration?
 **T**estable - What are the tests to know the work is done?
 
 ##### User Story Issues to Avoid
@@ -103,7 +103,7 @@ Our crews are distributed across timezones and across the world. Where possible,
 - Thinking too far ahead
 - Interdependent Stories
 - Too many details
-- [Gold plating](https://en.wikipedia.org/wiki/Gold_plating_(project_management))
+- [Gold plating](<https://en.wikipedia.org/wiki/Gold_plating_(project_management)>)
 - Stories are too small
 
 #### Definition of Ready
@@ -134,7 +134,7 @@ Our crews are distributed across timezones and across the world. Where possible,
     - **Triage**: All net-new tasks/bugs/features/stories need to be created as an "issue"; things to discuss/notes can be added as a "note"
     - **Backlog**: Stories and tasks that have been refined, triaged, and prioritized.
     - **Sprint Goals**: Stories that have been committed for the current sprint.
-    - **Sprint Backlog**:  Tasks that have been committed for the current sprint.
+    - **Sprint Backlog**: Tasks that have been committed for the current sprint.
     - **In Progress**: A development team member owns the story or bug and begins work.
     - **PR Submitted/In Review**: The owner of the story or bug determines the item meets our Definition of Done and has created a Pull Request. The item will stay in this status through the PR process -- including addressing requested feedback or fixing issues found.
     - **Done**: The Pull Request/Task has completed, and the work has been committed to the `main` branch of the project repository.
@@ -149,14 +149,13 @@ Our crews are distributed across timezones and across the world. Where possible,
 - Our sprints will be one week and run from Wednesday - Tuesday with Review, Retrospective, and Planning occurring back-to-back.
 - We will use an assigned Scrum Master versus rotating the role among the team.
 
-|  | When | Length | Participants | Purpose |
-|------|------|--------|--------------|---------|
-| **Standup** | Monday, Wednesday, Thursday  @ 1PM CST | 10 minutes | Development Team, Scrum Master, Product Owner | Those with committed work answer: What did I do yesterday? What will I do today? Is there anything in my way? |
-| **Triage** | Monday, Wednesday, Thursday  @ 1:10PM CST | 10 minutes | Development Team, Scrum Master, Product Owner| Review an net-new issues for prioritization and discussion |
-| **Review** | Tuesday @ 4:00PM CST | 30 minutes | Development Team, Scrum Master, Product Owner | Demonstrate the work we did this week. Show and tell time. |
-| **Retrospective** | Tuesday @ 4:30PM CST | 30 minutes | Development Team, Scrum Master, Product Owner | Reflect as a team on how we're doing -- what's working well for us, and what could we do better? |
-| **Planning** | Wednesday @ 5:00PM | 30 minutes | Scrum Master, Product Owner, Development Team | Commit to work for the next sprint. |
-
+|                   | When                                     | Length     | Participants                                  | Purpose                                                                                                       |
+| ----------------- | ---------------------------------------- | ---------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Standup**       | Monday, Wednesday, Thursday @ 1PM CST    | 10 minutes | Development Team, Scrum Master, Product Owner | Those with committed work answer: What did I do yesterday? What will I do today? Is there anything in my way? |
+| **Triage**        | Monday, Wednesday, Thursday @ 1:10PM CST | 10 minutes | Development Team, Scrum Master, Product Owner | Review an net-new issues for prioritization and discussion                                                    |
+| **Review**        | Tuesday @ 4:00PM CST                     | 30 minutes | Development Team, Scrum Master, Product Owner | Demonstrate the work we did this week. Show and tell time.                                                    |
+| **Retrospective** | Tuesday @ 4:30PM CST                     | 30 minutes | Development Team, Scrum Master, Product Owner | Reflect as a team on how we're doing -- what's working well for us, and what could we do better?              |
+| **Planning**      | Wednesday @ 5:00PM                       | 30 minutes | Scrum Master, Product Owner, Development Team | Commit to work for the next sprint.                                                                           |
 
 ## How we code together
 
@@ -196,7 +195,7 @@ Our crews are distributed across timezones and across the world. Where possible,
 
 ### Pairing
 
-Pairing work is recommended to support knowledge sharing between the team members. Work items have a dedicated field *Pairing with* so that a second team members is explicitly assigned. Each team member should look for pairing opportunities before picking up a new work item. Commits should be made by the people that are assigned to the story. Other team members are encouraged to provide feedback using PR comments.
+Pairing work is recommended to support knowledge sharing between the team members. Work items have a dedicated field _Pairing with_ so that a second team members is explicitly assigned. Each team member should look for pairing opportunities before picking up a new work item. Commits should be made by the people that are assigned to the story. Other team members are encouraged to provide feedback using PR comments.
 
 ### Sharing
 

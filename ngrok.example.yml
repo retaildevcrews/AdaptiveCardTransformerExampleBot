@@ -1,0 +1,6 @@
+authtoken: <ngrok-authentication-token>
+tunnels:
+  chatbot:
+    proto: http
+    addr: 3978
+    hostname: <alias>-chatbot.ngrok.io

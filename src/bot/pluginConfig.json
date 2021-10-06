@@ -1,0 +1,9 @@
+{
+	"templateSelectorPackageName": "template-selector",
+	"templateSelectorInstallPath": "src/plugins/templateSelector",
+	"forceReinstall": true,
+	"preProcessorPackageName": "pre-processor",
+	"preProcessorInstallPath": "src/plugins/preProcessor",
+	"postProcessorPackageName": "post-processor",
+	"postProcessorInstallPath": "src/plugins/postProcessor"
+}

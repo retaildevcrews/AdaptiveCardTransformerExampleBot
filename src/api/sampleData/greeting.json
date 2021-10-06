@@ -1,0 +1,6 @@
+{
+	"cardTemplateType": "text",
+	"text": "Welcome to the doctor scheduler bot.",
+	"subtext": "I will help you schedule your next doctors appointment.",
+	"showSubtext": true
+}

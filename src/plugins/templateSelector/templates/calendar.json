@@ -1,0 +1,43 @@
+{
+	"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+	"type": "AdaptiveCard",
+	"version": "1.3",
+	"body": [
+		{
+			"type": "TextBlock",
+			"size": "Medium",
+			"text": "${text}",
+			"wrap": true
+		},
+		{
+			"type": "TextBlock",
+			"text": "*Select a date between ${min} and ${max}.*",
+			"wrap": true,
+			"size": "default",
+			"weight": "lighter"
+		},
+		{
+			"type": "Input.Date",
+			"id": "date",
+			"label": "Select from below:",
+			"placeholder": "Enter a date",
+			"min": "${min}",
+			"max": "${max}",
+			"value": "${value}",
+			"isRequired": "${isRequired}",
+			"errorMessage": "${errorMessage}"
+		},
+		{
+			"type": "ActionSet",
+			"id": "controls",
+			"isVisible": true,
+			"actions": [
+				{
+					"type": "Action.Submit",
+					"title": "OK"
+				}
+			]
+		}
+	],
+	"actions": []
+}

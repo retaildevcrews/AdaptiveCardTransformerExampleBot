@@ -1,0 +1,39 @@
+{
+	"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+	"version": "1.3",
+	"type": "AdaptiveCard",
+	"body": [
+		{
+			"type": "TextBlock",
+			"size": "Medium",
+			"text": "${text}",
+			"wrap": true
+		},
+		{
+			"type": "Input.ChoiceSet",
+			"id": "selected",
+			"label": "Select from below:",
+			"isRequired": "${isRequired}",
+			"errorMessage": "${errorMessage}",
+			"choices": [
+				{
+					"$data": "${choices}",
+					"title": "${title}",
+					"value": "${value}"
+				}
+			]
+		},
+		{
+			"type": "ActionSet",
+			"id": "controls",
+			"isVisible": true,
+			"actions": [
+				{
+					"type": "Action.Submit",
+					"title": "Submit"
+				}
+			]
+		}
+	],
+	"actions": []
+}

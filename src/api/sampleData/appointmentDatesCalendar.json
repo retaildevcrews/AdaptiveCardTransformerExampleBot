@@ -1,0 +1,9 @@
+{
+	"cardTemplateType": "calendar",
+	"text": "Please select the day to schedule your appointment.",
+	"errorMessage": "Provide a valid date.",
+	"isRequired": true,
+	"value": "2021-08-30",
+	"max": "2021-12-31",
+	"min": "2021-08-30"
+}

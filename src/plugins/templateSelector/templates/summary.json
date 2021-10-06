@@ -1,0 +1,45 @@
+{
+	"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+	"type": "AdaptiveCard",
+	"version": "1.3",
+	"body": [
+		{
+			"type": "TextBlock",
+			"text": "${title}",
+			"size": "Medium",
+			"wrap": true
+		},
+		{
+			"type": "FactSet",
+			"facts": [
+				{
+					"$data": "${details}",
+					"title": "${key}:",
+					"value": "${value}"
+				}
+			]
+		},
+		{
+			"type": "ActionSet",
+			"id": "controls",
+			"isVisible": true,
+			"actions": [
+				{
+					"type": "Action.Submit",
+					"title": "Confirm",
+					"data": {
+						"response": "confirm"
+					}
+				},
+				{
+					"type": "Action.Submit",
+					"title": "Cancel",
+					"data": {
+						"response": "cancel"
+					}
+				}
+			]
+		}
+	],
+	"actions": []
+}

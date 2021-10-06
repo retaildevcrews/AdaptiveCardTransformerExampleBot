@@ -1,0 +1,19 @@
+# Basic dependabot.yml file with configuration for npm
+
+version: 2
+registries:
+  npm-github:
+    type: npm-registry
+    url: https://npm.pkg.github.com
+    token: ${{secrets.PACKAGE_TOKEN}}
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+    # Look for `package.json` and `lock` files in the `root` directory
+    directory: "/"
+    # Allow version updates for dependencies in this registry
+    registries:
+      - npm-github
+    # Check the npm registry for updates every day (weekdays)
+    schedule:
+      interval: "daily"

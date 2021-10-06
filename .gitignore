@@ -1,0 +1,24 @@
+# Dependency directories
+node_modules/
+.npmrc
+
+# TSC compiled output
+lib/
+
+# dotenv environment variables file
+.env
+
+# Chatbot dev tools
+ngrok.yml
+
+# Ignore downloaded woke custom ruleset
+customRuleSet.yaml
+
+# ignoring plugin packages
+plugin_packages/
+
+# ignoring DS_Store
+**/.DS_Store
+
+#.npmrc variables files
+.npmrc

@@ -1,0 +1,30 @@
+{
+	"cardTemplateType": "optionButtons",
+	"text": "Great! Please choose your doctor.",
+	"choices": [
+		{
+			"title": "Frankenstein",
+			"value": 0
+		},
+		{
+			"title": "Strange",
+			"value": 1
+		},
+		{
+			"title": "Strangelove",
+			"value": 2
+		},
+		{
+			"title": "Doolittle",
+			"value": 3
+		},
+		{
+			"title": "Who",
+			"value": 4
+		},
+		{
+			"title": "McDoctorson",
+			"value": 5
+		}
+	]
+}

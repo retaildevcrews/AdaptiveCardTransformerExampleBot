@@ -1,0 +1,7 @@
+{
+	"summary": "./templates/summary.json",
+	"calendar": "./templates/calendar.json",
+	"optionList": "./templates/optionList.json",
+	"optionButtons": "./templates/optionButtons.json",
+	"text": "./templates/text.json"
+}
