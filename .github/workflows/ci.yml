@@ -51,7 +51,7 @@ jobs:
       - name: add auth token for npm packages
         run: npm config set //npm.pkg.github.com/:_authToken ${PACKAGE_TOKEN}
         env:
-          PACKAGE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PACKAGE_TOKEN: ${{ secrets.PAT }}
 
       - name: npm install
         run: |
