@@ -23,7 +23,7 @@
 		"url": "https://github.com"
 	},
 	"dependencies": {
-		"@retaildevcrews/adaptive-card-transformer": "^0.2.0",
+		"@retaildevcrews/adaptive-card-transformer": "^0.2.2",
 		"axios": "^0.22.0",
 		"botbuilder": "^4.6.2",
 		"cors": "^2.8.5",
