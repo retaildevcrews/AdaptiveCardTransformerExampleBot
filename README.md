@@ -4,7 +4,7 @@
 
 This is DocBot, a sample Teams bot implementation that simulates scheduling a Doctor's appointment.
 
-This project represents a scenario where a backend API handles all of the dialog flow logic. All user responses are forwarded to the API and all of the API's responses are transformed/adapted to be displayed to the user as [Adaptive Cards](https://adaptivecards.io/). To achieve this, the bot leverages `adaptive-card-transformer`. See the [Adaptive Card Transformer repo](https://github.com/retaildevcrews/AdaptiveCardTransformer) for more information.
+This project represents a scenario where a backend API handles all of the dialog flow logic. All user responses are forwarded to the API and all of the API's responses are transformed/adapted to be displayed to the user as [Adaptive Cards](https://adaptivecards.io/). To achieve this, the bot leverages the [Adaptive Card Tranformer](https://github.com/retaildevcrews/AdaptiveCardTransformer).
 
 This repository contains a sample [Microsoft Teams bot](https://docs.microsoft.com/en-us/microsoftteams/platform/bots/what-are-bots), backend API, and set of plugins to use with `adaptive-card-transformer`.
 
@@ -47,12 +47,6 @@ This repository contains a sample [Microsoft Teams bot](https://docs.microsoft.c
 1. Run `cp ngrok.example.yml ngrok.yml` and fill in the ngrok `authtoken` and `hostname`
 
    - The ngrok account owner that setup the domain should have this information
-
-1. Run `cp .npmrc.example .npmrc` and fill in the auth token with your appropriate Personal Access Token
-
-   - To create a token, follow [this guide](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-
-     - To use the Adaptive Card Transformer package, you will only need to set the [`read:packages`](https://docs.github.com/en/packages/learn-github-packages/about-permissions-for-github-packages#about-scopes-and-permissions-for-package-registries) scope for the token
 
 1. Install modules
 
