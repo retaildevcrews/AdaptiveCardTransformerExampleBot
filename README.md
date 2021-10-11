@@ -11,7 +11,7 @@ like the DocBot, leverage the Yeoman [generator-AdaptiveCardTransformer](https:/
 
 ## Related Projects
 
-There are three related repositories for the Adaptive Card Transformer:
+There are three related repositories for the `adaptive-card-transformer`:
 
 - [AdaptiveCardTransformer] - an easy-to-use adapter which enables back-end NLU responses to be rendered through Adaptive Card functionality with an extendable plugin pattern.
 - [AdaptiveCardTransformerExampleBot] (this repository) - The Teams bot example implementation that uses the `adaptive-card-transformer`.
