@@ -4,10 +4,10 @@
 
 This is DocBot, a sample Teams bot implementation that simulates scheduling a Doctor's appointment.
 
-This project represents a scenario where a backend API handles all of the dialog flow logic. All user responses are forwarded to the API and all of the API's responses are transformed/adapted to be displayed to the user as [Adaptive Cards](https://adaptivecards.io/). To achieve this, the bot leverages the [Adaptive Card Transformer](https://github.com/retaildevcrews/AdaptiveCardTransformer). This repository contains a sample [Microsoft Teams bot](https://docs.microsoft.com/en-us/microsoftteams/platform/bots/what-are-bots), backend API, and set of plugins to use with `adaptive-card-transformer`.
+This project represents a scenario where a backend API handles all of the dialog flow logic. All user responses are forwarded to the API and all of the API's responses are transformed/adapted to be displayed to the user as [Adaptive Cards](https://adaptivecards.io/). To achieve this, the bot leverages the [adaptive-card-transformer](https://github.com/retaildevcrews/AdaptiveCardTransformer). This repository contains a sample [Microsoft Teams bot](https://docs.microsoft.com/en-us/microsoftteams/platform/bots/what-are-bots), backend API, and set of plugins to use with `adaptive-card-transformer`.
 
-To kickstart a project using the [Adaptive Card Transformer](https://github.com/retaildevcrews/AdaptiveCardTransformer)
-like the DocBot, leverage the Yeoman [generator-AdaptiveCardTransformer](https://github.com/retaildevcrews/generator-AdaptiveCardTransformer) to scaffold an echo bot (if needed) and plugins for use with the Adaptive Card Transformer.
+To kickstart a project using the [adaptive-card-transformer](https://github.com/retaildevcrews/AdaptiveCardTransformer)
+like the DocBot, leverage the Yeoman [generator-AdaptiveCardTransformer](https://github.com/retaildevcrews/generator-AdaptiveCardTransformer) and refer to the [How To Integrate](https://github.com/retaildevcrews/AdaptiveCardTransformer/blob/main/docs/HowToIntegrate.md) documentation.
 
 ## Related Projects
 
